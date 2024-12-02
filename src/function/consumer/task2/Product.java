@@ -1,4 +1,4 @@
-package consumer.task2;
+package function.consumer.task2;
 
 
 import java.math.BigDecimal;

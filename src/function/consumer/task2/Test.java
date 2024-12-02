@@ -1,4 +1,4 @@
-package consumer.task2;
+package function.consumer.task2;
 //Задача 2. Обработка списка объектов
 //Напишите класс Product, содержащий два поля:
 // name (название продукта) и price (цена).

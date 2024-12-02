@@ -1,4 +1,4 @@
-package consumer.task1;
+package function.consumer.task1;
 
 import java.util.function.Consumer;
 
