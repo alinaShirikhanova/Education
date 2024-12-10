@@ -1,5 +1,6 @@
 package function.supplier.example;
 
+import java.util.Optional;
 import java.util.Random;
 import java.util.function.Supplier;
 
@@ -20,6 +21,12 @@ public class SupplierExample {
 
         System.out.println("Computation not yet triggered.");
         System.out.println("Result: " + expensiveComputation.get());
+    }
+
+    public static void supplierWithOptional() {
+        Supplier<Double> doubleSupplier = () -> Math.random();
+        Optional<Double> optionalDouble = Optional.empty();
+        System.out.println(optionalDouble.orElseGet(doubleSupplier));
     }
 }
 
